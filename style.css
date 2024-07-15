@@ -1,0 +1,60 @@
+:root{
+    --background-color: #fff;
+    --colr:#f0f9ff;
+    --c :#e0f2fe;
+    --:#bae6fd;
+    ---:#7dd3fc;
+    --q:#38bdf8;
+    --çççç:#0ea5e9;
+    --l: #0284c7;
+    --j:#0369a1;
+    --d: #075985;
+    --f:#0c4a6e;
+    --h:#082f49;
+}
+body{
+    margin: 0;
+    padding: 0  ;
+}*
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.dashboard_container{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+.logo{
+    height: 40px;
+    width: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:3px;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+.square1{
+    background-color: var(--background-color);
+    grid-row: 1 / 3;
+}
+.square3{
+    background-color: var(--background-color);
+    grid-row: 3 /4;
+}
+.square2{
+    background-color: var(--background-color);
+    grid-row: 1 ;
+}
+.square4{
+    background-color: var(--background-color);
+    grid-row: 2 /4;
+}
+.nav_title_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    color: var(--background-color);
+    background-color: aqua;
+    padding: 20px;
+}
