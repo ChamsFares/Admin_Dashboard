@@ -1,15 +1,10 @@
 :root{
     --white_color: #fff;
     --Sky_Blue:#f0f9ff;
-    --Light_Blue:#e0f2fe;
-    --Baby_Blue:#bae6fd;
-    --Dodger_Blue:#7dd3fc;
-    --Royal_Blue:#38bdf8;
+
     --Teal_Blue:#0ea5e9;
-    --Navy_Blue: #0284c7;
-    --Indigo:#0369a1;
-    --Prussian_Blue: #075985;
-    --Dark_Slate_Blue:#0c4a6e;
+
+
     --deep_yellow:#fbbf24;
 }
 body {
@@ -141,7 +136,7 @@ input{
     margin: 5px;
     border-radius: 50px;
     border: none;
-    background-color: var(--Dodger_Blue);
+    background-color: var(--Sky_Blue);
 }
 .buttons{
     padding: 20px;
@@ -203,7 +198,7 @@ button{
     border-radius: 8px;
     padding: 30px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    border-left: 10px solid var(--Royal_Blue);
+    border-left: 10px solid var(--deep_yellow);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
